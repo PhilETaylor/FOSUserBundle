@@ -11,7 +11,7 @@
 
 namespace FOS\UserBundle\Doctrine;
 
-use Doctrine\EventSubscriber;
+use Doctrine\Common\EventSubscriber;
 use Doctrine\Persistence\Event\LifecycleEventArgs;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\ODM\MongoDB\DocumentManager;
